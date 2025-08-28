@@ -1,0 +1,45 @@
+Metadata-Version: 2.4
+Name: xchainpy2_thorchain_amm
+Version: 0.0.34
+Summary: XChainPy2 THORChain Automated Market Maker (AMM) interface
+Author-email: Tirinox <developer@tirinox.ru>
+License: MIT
+Project-URL: source, https://github.com/tirinox/xchainpy
+Keywords: Crypto,THORChain,Blockchain,XChain,AMM,Swap,DEX
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bip-utils<3.0.0,>=2.7.0
+Requires-Dist: pycryptodome<4.0,>=3.17
+Requires-Dist: xchainpy2_utils>=0.0.29
+Requires-Dist: xchainpy2_crypto>=0.0.4
+Requires-Dist: xchainpy2_client>=0.0.4
+Requires-Dist: xchainpy2_thorchain>=0.0.4
+Requires-Dist: xchainpy2_cosmos>=0.0.4
+Requires-Dist: xchainpy2_thorchain_query>=0.0.4
+Requires-Dist: xchainpy2_wallet>=0.0.1
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: license-file
+
+# XChainPy2 THORChain AMM
+
+THORChain Automatic Market Maker interface for Python.
+
+THORChain dev docs: https://dev.thorchain.org/
+
+### Documentation
+
+👉 https://xchainpy2.readthedocs.io/en/latest/packages/xchainpy2_thorchain_amm.html
+

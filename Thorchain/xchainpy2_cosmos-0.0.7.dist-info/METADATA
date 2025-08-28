@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: xchainpy2_cosmos
+Version: 0.0.7
+Summary: XChainPy2 Cosmos Client
+Author-email: Tirinox <developer@tirinox.ru>
+License: MIT
+Project-URL: source, https://github.com/tirinox/xchainpy
+Keywords: Crypto,THORChain,Blockchain,XChain,Cosmos
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bip-utils<3.0.0,>=2.7.0
+Requires-Dist: pycryptodome<4.0,>=3.17
+Requires-Dist: cosmpy>=0.9.1
+Requires-Dist: aiohttp
+Requires-Dist: xchainpy2_utils
+Requires-Dist: xchainpy2_crypto
+Requires-Dist: xchainpy2_client
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# XChainPy2 Cosmos (Atom) Chain Client
+
+Cosmos chain client.
+
+### Documentation
+
+👉 https://xchainpy2.readthedocs.io/en/latest/packages/xchainpy2_cosmos.html

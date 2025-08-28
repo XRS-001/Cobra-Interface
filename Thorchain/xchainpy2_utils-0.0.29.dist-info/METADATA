@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: xchainpy2_utils
+Version: 0.0.29
+Summary: XChainPy 2 Utils
+Author-email: Tirinox <developer@tirinox.ru>
+License: MIT
+Project-URL: source, https://github.com/tirinox/xchainpy
+Keywords: Crypto,THORChain,Blockchain,XChain
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: license-file
+
+# XChainPy2 Utilities Package
+
+Utility helpers that are used across different XChainPy2 clients and other packages.
+
+### Modules (in alphabetical order)
+
+- `Asset` - Utilities for handling assets
+- `Amount` - Utilities for handling amounts
+- `CryptoAmount` is a combination of `Asset` and `Amount`
+
+### Documentation
+
+👉 https://xchainpy2.readthedocs.io/en/latest/packages/xchainpy2_utils.html
+
+
+

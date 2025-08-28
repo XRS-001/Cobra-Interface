@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: xchainpy2_thorchain
+Version: 0.0.35
+Summary: XChainPy2 THORChain Client
+Author-email: Tirinox <developer@tirinox.ru>
+License: MIT
+Project-URL: source, https://github.com/tirinox/xchainpy
+Keywords: Crypto,THORChain,Blockchain,XChain
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xchainpy2_utils
+Requires-Dist: xchainpy2_crypto
+Requires-Dist: xchainpy2_client
+Requires-Dist: xchainpy2_cosmos
+Requires-Dist: cosmpy
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: license-file
+
+# XChainPy2 THORChain client
+
+https://thorchain.org/
+
+> THORChain is a network that facilitates native asset settlement between Bitcoin, Ethereum, BNB Chain, Avalanche, Cosmos Hub, Dogecoin, Bitcoin Cash & Litecoin
+
+> THORChain is secured by its native token, RUNE, which deterministically accrues value as more assets are deposited into the network.
+
+> Anyone can use THORChain to swap native assets between any supported chains or deposit their assets to earn yield from swaps.
+
+### Documentation
+
+👉 https://xchainpy2.readthedocs.io/en/latest/packages/xchainpy2_thorchain.html

@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: xchainpy2_wallet
+Version: 0.0.8
+Summary: XChainPy 2 Wallet
+Author-email: Tirinox <developer@tirinox.ru>
+License: MIT
+Project-URL: source, https://github.com/tirinox/xchainpy
+Keywords: Crypto,Wallet,Blockchain,XChain
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xchainpy2_utils
+Requires-Dist: xchainpy2_client
+Requires-Dist: xchainpy2_thorchain_query
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: license-file
+
+# XChainPy2 Wallet package
+
+This package allows to assemble several blockchain clients in a single wallet object.
+You can install only the clients you need.
+
+### Documentation
+
+👉 https://xchainpy2.readthedocs.io/en/latest/packages/xchainpy2_wallet.html
+
+

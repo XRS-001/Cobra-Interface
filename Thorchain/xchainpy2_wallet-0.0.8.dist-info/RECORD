@@ -1,0 +1,14 @@
+xchainpy2_wallet-0.0.8.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+xchainpy2_wallet-0.0.8.dist-info/METADATA,sha256=CFFjUDdp81PN4ZJK_96_nXmMvvVHi5f7G70qQmEX1uY,1320
+xchainpy2_wallet-0.0.8.dist-info/RECORD,,
+xchainpy2_wallet-0.0.8.dist-info/WHEEL,sha256=GHB6lJx2juba1wDgXDNlMTyM13ckjBMKf-OnwgKOCtA,91
+xchainpy2_wallet-0.0.8.dist-info/licenses/LICENSE,sha256=S5Dp5AN4BVO9E2JzjK2vUl6V6KQvcWfr9xXK9I_Jl54,1086
+xchainpy2_wallet-0.0.8.dist-info/top_level.txt,sha256=HayXiTV8bUVVLBI46VFz01B_KRXaXNHVMMjYLnifmYw,17
+xchainpy2_wallet/__init__.py,sha256=76llHYJ6NzS67CIsxqDgGzU4vhrvTjDuwK3aJs2T7s0,44
+xchainpy2_wallet/__pycache__/__init__.cpython-311.pyc,,
+xchainpy2_wallet/__pycache__/detect_clients.cpython-311.pyc,,
+xchainpy2_wallet/__pycache__/models.cpython-311.pyc,,
+xchainpy2_wallet/__pycache__/wallet.cpython-311.pyc,,
+xchainpy2_wallet/detect_clients.py,sha256=FfP006d_0sdoTsOx0Fm_wYEJXJjRnpGCHKIaOqY_jms,1991
+xchainpy2_wallet/models.py,sha256=iPH6KhfmQWU9FX0hESrCmF25luvFVTssARa7FUSgRQM,540
+xchainpy2_wallet/wallet.py,sha256=NUK2AC-V38eqXavi5CjrjRynJaa_2dZG-dA7BFDURos,7527

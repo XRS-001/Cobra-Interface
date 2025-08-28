@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: xchainpy2_client
+Version: 0.0.20
+Summary: XChainPy2 Base Clients
+Author-email: Tirinox <developer@tirinox.ru>
+License: MIT
+Project-URL: source, https://github.com/tirinox/xchainpy
+Keywords: Crypto,THORChain,Blockchain,XChain
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bip-utils<3.0.0,>=2.7.0
+Requires-Dist: pycryptodome<4.0,>=3.17
+Requires-Dist: xchainpy2_crypto
+Requires-Dist: xchainpy2_utils
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# XChainPy2 Wallet Client Interface
+
+A specification for a generalised interface for crypto wallets clients, to be used by XChainPy2 implementations. 
+The client should not have any functionality to generate a key, instead, 
+the `asgardex-crypto` (todo: is there such lib for Py?) library should be used to ensure cross-chain compatible keystores are handled. 
+The client is only ever passed a master BIP39 phrase, from which a temporary key and address is decoded.

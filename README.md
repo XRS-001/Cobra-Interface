@@ -27,7 +27,7 @@ Here's an overview of every network supported and its connection to its respecti
 | Hedera      | [Hiero SDK](https://github.com/hiero-ledger/hiero-sdk-python)|
 
 ## Usage
-The wallet functionality for most supported networks is just basic value transfers and block explorers that go without saying. The Ethereum and Thorchain support however are more complicated so I'll give some explanation as to how to traverse their command lines.
+The wallet functionality for most supported networks is just basic value transfers and block explorers that go without saying. The Ethereum and Thorchain support however are more complicated so I'll give some explanation as to how to traverse their command lines. You'll also be asked to provide a API key for CoinMarketCap.com because the interface uses the USD value of Bitcoin to calculate a bitcoin denominated value of your portfolio. You can get an API key here: https://coinmarketcap.com/api/
 
 ### Main Interface
 The main interface gives you access to every module, the Thorchain interface, a QR code generator and a portfolio dashboard tool that quotes your account's value denominated in Sats. Here's what the interface looks like:

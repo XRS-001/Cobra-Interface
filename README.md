@@ -13,7 +13,7 @@ pip install pycardano
 ```
 Apart from that, the only other software you might need is a Bitcoin Core node running on localhost if you chose to use the Bitcoin support.
 ## Tables
-Here's an overview of every network supported and its connection to its respective network.
+Here's every network supported and its connection to its respective network.
 
 | Left columns  | Right columns |
 | ------------- |:-------------:|
